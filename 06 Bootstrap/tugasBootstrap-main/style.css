@@ -1,0 +1,112 @@
+.header{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    stroke-width: 12px;
+    stroke-opacity: 100%;
+    stroke: black;
+    padding: 36px;
+}
+.logo-header{
+    color: black;
+    text-transform: initial;
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+}
+.nav-header{
+    margin-left: 850px;
+}
+.nav{
+    text-decoration: none;
+    color: black;
+    font-family: 'Poppins';
+    font-weight: bold;
+    font-size: 24px;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.body1{
+    font-family: 'Poppins';
+    font-weight: 100;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.body1-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.body1-h4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.services{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 120px;
+}
+.services-1{
+    font-family: 'Poppins';
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 16px;
+}
+.img1{
+    width: 120px;
+}
+.services-h1{
+    font-weight: bold;
+    font-size: 18px;
+}
+.services-h2{
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.body2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.img2{
+    width: 240px;
+}
+.body2-UI{
+    font-family: 'Poppins';
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Poppins';
+    background-color: grey;
+    padding: 24px;
+}
+.footer-text1{
+    font-size: 12px;
+    font-weight: bold;
+}
+.footer-text2{
+    font-size: 10px;
+}
+.copy{
+    display: flex;
+    justify-content: center;
+    font-family: 'Poppins';
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+}

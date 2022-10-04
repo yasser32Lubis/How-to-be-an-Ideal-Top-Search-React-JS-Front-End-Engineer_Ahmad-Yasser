@@ -1,0 +1,18 @@
+Jawaban:
+Soal no 1:
+(SS pada folder screenshot)
+a. Budi
+b. Mengubah value false menjadi true pada baris ke 4
+c. Menambahkan kode perkenalan()
+d. Kodenya pada folder screenshot
+
+Soal no 2:
+a. Karena pada baris tersebut mereka bisa ditampilkan jikalau value terdaftar pada
+   baris ke 4 = true.
+b. karena nilai pada nama berupa konstanta atau tetap, jika ingin merubahnya kita
+   harus merubah const menjadi let.
+c. Baris ke 28 masih tetap tidak dapat dieksekusi karena nilai "asal" merupakan 
+   sebuah variabel dari function, yang mana hanya bisa diakses oleh function itu 
+   sendiri.
+
+Jawaban soal 3-6 berupa screenshot.

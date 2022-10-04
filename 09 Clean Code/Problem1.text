@@ -1,0 +1,6 @@
+JavaScript  :
+1. pada class userservice, seharusnya diextend ke class user. karena pada pendeklarsiannya tidak lengkap 
+sehingga value yang ingin diambil tidak dapat terdeteksi.
+
+2.pada penamaan classnya harus menggunakan format camel case, seperti userService, getAllUsers
+getUserById,userId. 

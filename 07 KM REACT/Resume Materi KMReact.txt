@@ -1,0 +1,12 @@
+Judul Jurnal: Version Control and Branch Management
+•	Version control branching memungkinkan tim untuk mengembangkan dan menyebarkan perangkat lunak. Tetapi untuk mengelola proyek secara efektif dengan banyak pengembang dan rilis, Anda memerlukan strategi percabangan. Ini mengatur cabang dan sumber daya pengembangan Anda, memungkinkan Anda untuk merilis tepat waktu.
+
+Apa pun pengalaman Anda, panduan percabangan kontrol versi ini akan memandu Anda melalui semua yang perlu Anda ketahui. Mulai siapkan proyek Anda — dan tim — untuk sukses dengan strategi percabangan kontrol versi.
+
+•	Bagaimana Version Control Branching Bekerja?
+
+Jika Anda baru saja mulai berkembang, mulailah dari sini. Percabangan akan memungkinkan Anda dan rekan satu tim Anda untuk mengerjakan kode pada saat yang sama, tanpa menduplikasi usaha. Setelah Anda menguasai dasar-dasarnya, Anda dapat mulai membangun proyek yang lebih besar dan lebih baik.
+
+•	Apa itu branch?
+
+Sekarang setelah Anda mengetahui dasar-dasarnya, sekarang saatnya untuk mulai mengatur cabang Anda. Strategi percabangan menentukan kapan dan bagaimana pengembang bercabang. Memilih strategi yang tepat dapat membuat perbedaan besar dalam kesuksesan Anda. Dan dengan lebih sering bercabang dan menggabungkan kode, seluruh tim Anda bisa lebih produktif. Terapkan strategi percabangan yang tepat untuk mendukung upaya pengembangan paralel Anda (tidak peduli ukuran tim atau proyek Anda).
