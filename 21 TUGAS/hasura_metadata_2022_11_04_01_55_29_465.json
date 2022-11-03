@@ -1,0 +1,95 @@
+{
+  "resource_version": 98,
+  "metadata": {
+    "version": 3,
+    "sources": [
+      {
+        "name": "kampus_merdeka",
+        "kind": "postgres",
+        "tables": [
+          {
+            "table": {
+              "name": "Table_Keterangan",
+              "schema": "public"
+            },
+            "object_relationships": [
+              {
+                "name": "id_one",
+                "using": {
+                  "manual_configuration": {
+                    "column_mapping": {
+                      "id": "id"
+                    },
+                    "insertion_order": null,
+                    "remote_table": {
+                      "name": "table_anggota",
+                      "schema": "public"
+                    }
+                  }
+                }
+              }
+            ],
+            "array_relationships": [
+              {
+                "name": "arrayed",
+                "using": {
+                  "manual_configuration": {
+                    "column_mapping": {
+                      "id_anggota": "id"
+                    },
+                    "insertion_order": null,
+                    "remote_table": {
+                      "name": "table_anggota",
+                      "schema": "public"
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "table": {
+              "name": "table_anggota",
+              "schema": "public"
+            },
+            "object_relationships": [
+              {
+                "name": "Table_Keterangan",
+                "using": {
+                  "foreign_key_constraint_on": "id"
+                }
+              },
+              {
+                "name": "ket_id",
+                "using": {
+                  "manual_configuration": {
+                    "column_mapping": {
+                      "id": "id_anggota"
+                    },
+                    "insertion_order": null,
+                    "remote_table": {
+                      "name": "Table_Keterangan",
+                      "schema": "public"
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        ],
+        "configuration": {
+          "connection_info": {
+            "database_url": {
+              "from_env": "PG_DATABASE_URL"
+            },
+            "isolation_level": "read-committed",
+            "use_prepared_statements": false
+          }
+        },
+        "customization": {
+          "naming_convention": "hasura-default"
+        }
+      }
+    ]
+  }
+}
