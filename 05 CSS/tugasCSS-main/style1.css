@@ -1,0 +1,40 @@
+@font-face {
+    font-family: "Slabo 27px";
+    font-style: normal;
+    font-weight: 400;
+    src: url(Slabo27px-Regular.ttf) format(truetype);
+  }
+div.textSatu{
+    font-family: "Slabo 27px";
+    font-style: normal;
+    color: #fff;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+    border-radius: 24;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.textDua{
+    font-family: "Slabo 27px";
+    font-style: normal;
+    color: #fff;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    border-radius: 24;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+div.textTiga{
+    font-family: "Slabo 27px";
+    font-style: normal;
+    color: #fff;
+    text-align: center;
+    background-color: green;
+    width: 300px;
+    height: 300px;
+    border-radius: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
