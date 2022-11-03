@@ -1,7 +1,0 @@
-Nama 	: Ahmad Yasser
-NRP 	: 1151900013
-
-1.	Build Raect App
--	Tujuan melakukan build agar aplikasi kita menjadi versi production, sehingga performanya lebih ringan cepat.
--	Run Optimized App untuk menjalankan aplikasi yang optimal di local komputer bisa menggunkan serve.
-
