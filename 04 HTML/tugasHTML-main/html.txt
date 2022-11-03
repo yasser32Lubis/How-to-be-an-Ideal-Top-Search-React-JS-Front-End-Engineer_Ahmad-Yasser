@@ -1,6 +1,0 @@
-HTML (HyperText Markup Language) adalah suatu bahasa yang menggunakan tanda-tanda tertentu (tag) untuk menyatakan kode-kode yang harus ditafsirkan oleh browser agar halaman tersebut dapat ditampilkan secara benar.
-Secara umum, fungsi HTML adalah untuk mengelola serangkaian data dan informasi sehingga suatu dokumen dapat diakses dan ditampilkan di Internet melalui layanan web.
-Fungsi HTML yang lebih spesifik yaitu :
-1.	Membuat halaman web.
-2.	Menampilkan berbagai informasi di dalam sebuah browser Internet.
-3.	Membuat link menuju halaman web lain dengan kode tertentu (hypertext).
