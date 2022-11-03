@@ -1,0 +1,17 @@
+mutation MyMutation {
+  insert_table_Keterangan(objects: {id_anggota: 3, Pelajaran: "Sistem Informasi", Nilai: 90, Status: true}) {
+    affected_rows
+  }
+}
+
+mutation MyMutation2 {
+  insert_table_Keterangan(objects: {id_anggota: 3, Pelajaran: "React", Status: false, Nilai: 55}) {
+    affected_rows
+  }
+}
+
+query MyQuery {
+  table_Keterangan(where: {Status: {_eq: true}}) {
+    id
+  }
+}
