@@ -1,0 +1,19 @@
+Nama 	: Ahmad Yasser
+NRP 	: 1151900013
+
+1.	Basic Testing
+-	Testing adalah proses memverifikasi bahwa test assertions kita benar dan bahwa code kita tetap benar sepanjang masa aplikasi.
+-	Test assertion adalah ekspresi boolean yang mengembalikan nilai true kecuali ada bug di kode kita.
+-	Manfaat testing dapat mengurangi bug pada aplikasi dan mengetahui bagian lain yang menjadi broken.
+-	Kategori Testing : 1. Rendering component trees di dalam environment tes yang sudah disederhanakan dan ditegaskan pada keluarannya.; 2. Menjalankan aplikasi lengkap di dalam environment peramban (browser) asli. Ini dikenal sebagai tes “end-to-end”.
+-	Pertimbangan memilih perkakas : 1. Kecepatan iterasi vs environment yang realitis.; 2. Seberapa banyak moc up.
+-	Rekomendasi tools : Jest, React testing library, Install.
+
+2.	Create Basic Testing with RTL
+-	Render dan Debug : Fungsi render RTL akan merender file JSX apappun yang dibuttuhkan. Untuk meyakinkan bahwa file JSX sudah terender, kitab isa menggunakan fungsi debung RTL.
+-	Memilih Elemen : React testing library menawarkan berbagai fungsi untuk mendapatkan elemen. Salah satu contohnya getByText untuk memilih teks dari elemen apa yang sudah dipilih.
+-	Kategori testing contohnya LabelText, PlaceholderText, AltText, DisplayValue.
+
+3.	Testing Custom Hook
+-	Library yang digunakan yaitu React Hooks Testing Library.
+-	Implementasi : Custom Hook, testing Value, Testing Callback, Testing Re-render.
