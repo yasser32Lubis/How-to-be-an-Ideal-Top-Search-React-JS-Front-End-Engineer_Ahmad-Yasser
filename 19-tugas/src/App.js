@@ -1,25 +1,38 @@
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Welcome <code>to</code> website yasser.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import { gql, useQuery } from '@apollo/client';
+
+const getTodolist = gql`
+query MyQuery {
+  table_anggota {
+    Nama
+    id
+  }
 }
+`;
+
+// Using client.query to make graphql query
+
+function App() {
+  const{data,error} = useQuery(getTodolist)
+  if(error){
+    console.log(error)
+    return null
+  }
+
+  return (
+    <div>
+      {data.table_anggota.map((v, i) =>(
+        <getTodolist
+        key ={i}
+        id ={i}
+        checked={v.Nama}
+        />
+      ))}
+    </div>
+  )
+};
+
+
 
 export default App;
